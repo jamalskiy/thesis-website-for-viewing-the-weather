@@ -28,13 +28,14 @@
 
 <a href="https://github.com/jamalskiy"><img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="40" height="40"></a>
 
-## В чём и кто мне помог:
-<a href="https://github.com/jamalskiy"><img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="40" height="40"></a>
+## Что было сделано?
 
+- Тестирование сайта на localhost
 - Создание токена на OpenWeather
 - Настройка хостинга
 - Настройка SSL-Сертификата
-- Объяснение что и как нужно делать
+- Загрузка файлов сайта на хостинг
+- Публикация проекта на GitHub
 
 ## Демо:
 [Можете посмотреть как выглядит сайт](https://userbots.ru)
