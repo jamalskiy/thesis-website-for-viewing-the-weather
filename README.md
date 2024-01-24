@@ -21,9 +21,15 @@
 **Удобный и красивый дизайн:** Интуитивно понятный и привлекательный пользовательский интерфейс для удобства использования.
 
 ## Разработчики
-<a href="https://github.com/jamalskiy">
-  <img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="40" height="40">
-</a>
+
+- <a href="https://github.com/jamalskiy"><img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="20" height="20"> Jamalskiy</a>
+
+## Влад в проект
+
+<ul>
+  <li>Создал токен [OpenWeather](https://openweathermap.org) для [проекта](https://github.com/jamalskiy/thesis-website-for-viewing-the-weather)
+  <li>Опубликовал репозиторий на [GitHub](https://github.com/jamalskiy).</li>
+</ul>
 
 
 <h3 align="left">Языки и инструменты:</h3>
