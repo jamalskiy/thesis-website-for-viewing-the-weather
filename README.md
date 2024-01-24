@@ -39,3 +39,8 @@
 
 ## Демо:
 [Можете посмотреть как выглядит сайт](https://userbots.ru)
+
+## 📝 Лицензия
+
+[![License](https://img.shields.io/github/license/Aliine98/snapclima-imersao-frontend?logo=m&style=for-the-badge)](LICENSE.txt)
+
