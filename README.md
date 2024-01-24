@@ -22,7 +22,7 @@
 
 ## Разработчики
 
-- <a href="https://github.com/jamalskiy"><img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="20" height="20"> Jamalskiy</a>
+<a href="https://github.com/jamalskiy"><img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="20" height="20"></a>
 
 ## Влад в проект
 
