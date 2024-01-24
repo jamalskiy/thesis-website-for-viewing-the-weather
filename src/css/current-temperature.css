@@ -1,0 +1,44 @@
+/* Light mode */
+
+.current-temperature {
+   align-items: center;
+   display: flex;
+   flex-flow: column;
+   height: calc(100vh - 422px);
+   justify-content: center;
+   margin-bottom: 40px;
+   min-height: 300px;
+}
+
+.current-temperature__weather-icon {
+   margin-bottom: 1em;
+}
+
+.current-temperature__description {
+   font-size: 1.4em;
+   margin-bottom: 0.3em;
+   font-family: 'Ubuntu';
+   text-transform: capitalize;
+}
+
+.current-temperature__info-label {
+   color: var(--gray);
+   font-size: 0.9em;
+   line-height: 0.1;
+}
+
+.current-temperature__value {
+   color: var(--primary);
+   font-size: 1.4em;
+   font-weight: 700;
+}
+
+/* Dark mode */
+
+.dark-mode .current-temperature__info-label {
+   color: var(--light-gray);
+}
+
+.dark-mode .current-temperature__value {
+   color: var(--primary-dark);
+}

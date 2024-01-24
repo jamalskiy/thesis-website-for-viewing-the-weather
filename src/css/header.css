@@ -1,0 +1,162 @@
+/* Light mode */
+
+.header {
+	padding: 20px 15px;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.menu__button {
+	background: var(--primary);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	display: grid;
+	padding: 8px;
+	place-items: center;
+}
+
+:is(.menu__button, .header__button, .socials__linkedin, .socials__github) {
+	transition: all 0.8s;
+}
+
+.button__sun {
+	display: none;
+}
+
+.button__moon {
+	filter: invert(98%) sepia(88%) saturate(586%) hue-rotate(177deg) brightness(99%) contrast(97%);
+}
+
+.menu__socials {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1em;
+}
+
+.socials__github,
+.socials__linkedin {
+	filter: invert(10%) sepia(66%) saturate(3175%) hue-rotate(260deg) brightness(97%) contrast(134%);
+}
+
+:hover:where(.socials__github, .socials__linkedin) {
+	filter: invert(11%) sepia(80%) saturate(5478%) hue-rotate(266deg) brightness(92%) contrast(114%);
+}
+
+.header__city-search-bar {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	filter: drop-shadow(5px 5px 5px var(--shadow));
+}
+
+.header__input {
+	background: var(--white);
+	border: none;
+	border-radius: 50px 0 0 50px;
+	caret-color: var(--primary);
+	margin-right: -15px;
+	padding: 10px;
+	transition: all 0.8s;
+	width: 30em;
+}
+
+.header__input:focus-visible {
+	outline: var(--light-gray) solid thin;
+}
+
+.header__button {
+	align-items: center;
+	border: none;
+	border-radius: 100%;
+	background: var(--primary);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	float: left;
+	margin-rigth: 20px;
+	z-index: 1;
+}
+
+.header__button:hover {
+	transform: scale(1.2);
+}
+
+:hover:where(.menu__button, .header__button) {
+	background: var(--primary-hover);
+}
+
+.header__current-date, .header__city-name {
+	font-family: 'Ubuntu';
+}
+
+.header__current-date {
+	color: var(--gray);
+	margin-top: 1.5em;
+	font-size: 0.9em;
+	text-transform: capitalize;
+}
+
+.header__city-name {
+	color: var(--primary);
+	font-size: 1.3rem;
+}
+
+/* Dark mode */
+
+.dark-mode :where(.menu__button, .header__button) {
+	background: var(--primary-dark);
+}
+
+.dark-mode :hover:where(.menu__button, .header__button) {
+	background: var(--primary-dark-hover);
+}
+
+.dark-mode .button__sun {
+	display: block;
+}
+
+.dark-mode .button__moon {
+	display: none;
+}
+
+.dark-mode :where(.socials__github, .socials__linkedin) {
+	filter: invert(59%) sepia(20%) saturate(2153%) hue-rotate(216deg) brightness(97%) contrast(110%);
+}
+
+.dark-mode :hover:where(.socials__github, .socials__linkedin) {
+	filter: invert(41%) sepia(12%) saturate(6919%) hue-rotate(246deg) brightness(100%) contrast(103%);
+}
+
+.dark-mode .header__city-search-bar {
+	filter: none;
+}
+
+.dark-mode .header__input {
+	background: var(--gray);
+	caret-color: var(--primary-dark);
+	color: var(--white);
+}
+
+.dark-mode .header__input::placeholder {
+	color: var(--light-gray);
+}
+
+.dark-mode .header__button-icon {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(8%) hue-rotate(173deg) brightness(104%) contrast(103%);
+}
+
+.dark-mode .header__current-date {
+	color: var(--light-gray);
+}
+
+.dark-mode .header__city-name {
+	color: var(--primary-dark);
+}
