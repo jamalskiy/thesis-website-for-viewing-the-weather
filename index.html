@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--
+  Автор Jamalskiy
+ -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Смотрите прогноз, узнавайте температуру, влажность, скорость ветра и другие важные параметры в удобном формате.">
+  <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon-16x16.png">
+  <link rel="manifest" href="./src/assets/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/normalize.css">
+  <link rel="stylesheet" href="./src/css/global.css">
+  <link rel="stylesheet" href="./src/css/header.css">
+  <link rel="stylesheet" href="./src/css/bottom-container.css">
+  <link rel="stylesheet" href="./src/css/current-temperature.css">
+
+  <title>Погода</title>
+</head>
+
+<body class="dark-mode">
+  <header class="header">
+    <div class="header__menu">
+      <button class="menu__button" aria-label="Dark/Light mode button"><img src="./src/assets/sun-icon.svg"
+          alt="Ícone de sol" width="20" height="20" class="button__sun">
+        <img src="./src/assets/moon-icon.svg" alt="Ícone de lua" width="20" height="20" class="button__moon"></button>
+    </div>
+    </div>
+    <div class="header__city-search-bar">
+      <input class="header__input" type="text" placeholder="Введите город:">
+      <button class="header__button">
+        <img class="header__button-icon" src="./src/assets/search-icon.svg" alt="Ícone de busca">
+      </button>
+    </div>
+    <div class="header__current-date">...</div>
+    <div class="header__city-name"><strong>...</strong></div>
+  </header>
+  <main class="current-temperature">
+    <img class="current-temperature__weather-icon" src="./src/assets/loading-icon.svg" alt="Carregando">
+    <div class="current-temperature__description">...</div>
+    <p class="current-temperature__info-label">Температура</p>
+    <div class="current-temperature__value">...</div>
+  </main>
+  <div class="bottom-container">
+    <section class="temperature-details">
+      <div class="temperature-details__item">
+        <p class="temperature-details__label">Ветер</p>
+        <div class="temperature-details__value" id="wind">...</div>
+      </div>
+      <div class="temperature-details__item">
+        <p class="temperature-details__label">Температура</p>
+        <div class="temperature-details__value" id="feels-like">...</div>
+      </div>
+      <div class="temperature-details__item">
+        <p class="temperature-details__label">Влажность</p>
+        <div class="temperature-details__value" id="humidity">...</div>
+      </div>
+    </section>
+    <section class="sunset-sunrise">
+      <div class="sunset-sunrise__item">
+        <img class="sunset-sunrise__icon" src="./src/assets/sunrise.svg" alt="Nascer do sol">
+        <div class="sunset-sunrise__value" id="sunrise">...</div>
+      </div>
+      <div class="sunset-sunrise__item">
+        <img class="sunset-sunrise__icon" src="./src/assets/sunset.svg" alt="Pôr do sol">
+        <div class="sunset-sunrise__value" id="sunset">...</div>
+      </div>
+    </section>
+  </div>
+
+  <div id="cookie_notification" class="cookie_notification">
+    <p>Мы используем cookie 🍪 для улучшение работы сайта. Нажимая "Принять", вы соглашаетесь с использованием куки.</p>
+    <button class="cookie_accept">Принять</button>
+    <a href="https://ru.wikipedia.org/wiki/HTTP_cookie" target="_blank" rel="noopener noreferrer">Что это?</a>
+  </div>
+
+  <script type="module" src="./src/js/index.js"></script>
+  <footer style="text-align: center; margin-top: auto;">
+    <p>© 2023-2024 Все права защищены.</p>
+    <p>См. <a href="/LICENSE.html">Авторское право</a> и <a href="/LICENSES.html">Лицензия использования</a> для дополнительной информации.</p>
+  </footer>
+</body>
+
+</html>
