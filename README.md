@@ -21,8 +21,10 @@
 **Удобный и красивый дизайн:** Интуитивно понятный и привлекательный пользовательский интерфейс для удобства использования.
 
 ## Разработчики
+<a href="https://github.com/jamalskiy">
+  <img src="https://avatars.githubusercontent.com/u/155892199?v=4" alt="Jamalskiy" width="40" height="40">
+</a>
 
-- [![Jamalskiy](https://avatars.githubusercontent.com/u/jamalskiy)](https://github.com/jamalskiy)
 
 <h3 align="left">Языки и инструменты:</h3>
 <p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
