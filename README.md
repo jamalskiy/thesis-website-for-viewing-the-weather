@@ -19,7 +19,7 @@
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - <a href="https://openweathermap.org/"><img alt="OpenWeather API" src="https://img.shields.io/badge/OpenWeather_API-eb6e4c?style=for-the-badge&logoColor=white"></a>
 
-## **Установка:**
+## **Для разработчиков:**
 1. Клонируйте репозиторий: ```git clone https://github.com/jamalskiy/thesis-website-for-viewing-the-weather.git```
 2. Зайдите в ```scr/js/api-key.js``` и замените на свой API ключ OpenWeather
 3. Готово, теперь можете заходить на свой сайт и пользоваться.
